@@ -1,0 +1,1270 @@
+{
+    "id": "dbfe86a2-0ce8-4069-9fa9-0b5fb5647490",
+    "rma": null,
+    "mode": "dropoff",
+    "weight_in_grams": 450,
+    "size": "S",
+    "computed_weight_in_grams": 0,
+    "public_url": "https://staging.v2.shoprunback.com/3-suisses/dbfe86a2-0ce8-4069-9fa9-0b5fb5647490",
+    "metadata": null,
+    "created_at": "2022-09-30T09:03:08.442+02:00",
+    "updated_at": "2022-09-30T09:04:40.614+02:00",
+    "label_url": "https://s3.eu-west-3.amazonaws.com/srb-labels/mondialrelay/1664521471.5309293.pdf",
+    "tracking_number": "14084045610101006882000026",
+    "voucher_url": "https://s3.amazonaws.com/srb-staging/shipbacks/dbf/e86/a2-/vouchers/original.pdf?1664521480",
+    "registered_at": "2022-09-30T09:04:23.193+02:00",
+    "price_cents": 500,
+    "customer_price_cents": 500,
+    "dropoff_code": "015891",
+    "pickup_datetime": null,
+    "pickup_duration": null,
+    "pickup_slot_id": null,
+    "charged": true,
+    "state": "registered",
+    "archived": false,
+    "archived_at": null,
+    "relocated_at": null,
+    "store_return_available": false,
+    "store_locator_url": "",
+    "store_faq_url": "",
+    "overrides": {
+        "try_at_home": false,
+        "relocation_warehouse_id": null
+    },
+    "returned_items": [
+        {
+            "id": "b18a405c-8476-4674-a4c3-15e8b3724e1a",
+            "reason_code": "damaged",
+            "locked_reason": null,
+            "reason": "damaged",
+            "tag_list": [],
+            "item": {
+                "id": "5672e430-2a70-407c-8463-fe4180fe88a0",
+                "barcode": null,
+                "label": "Baskets souple en textile noir pour homme  (Umbro) Taille : 45",
+                "reference": null,
+                "price_cents": null,
+                "currency": "eur",
+                "tag_list": [],
+                "product": {
+                    "id": "ef1511e8-c9bd-406e-bf26-303bac73a484",
+                    "label": "Baskets souple en textile noir pour homme  (Umbro) Taille : 45",
+                    "reference": "UM3361456-4302492",
+                    "ean": "3616425042678",
+                    "weight_grams": 450,
+                    "width_mm": null,
+                    "length_mm": null,
+                    "height_mm": null,
+                    "metadata": null,
+                    "picture_url": "https://s3.amazonaws.com/srb-staging/products/ef1/511/e8-/pictures/medium.?1662361550",
+                    "tag_list": [],
+                    "brand": {
+                        "id": "b1055695-1bb9-4fad-815b-9abc8b457813",
+                        "name": "Umbro",
+                        "reference": "4291",
+                        "default": false
+                    },
+                    "spare_parts": []
+                }
+            },
+            "proofs": [],
+            "identified_at": null,
+            "identification_barcode": null,
+            "refund": {
+                "mode": "cash",
+                "amount_cents": 0
+            },
+            "abandon": {
+                "proposed": false,
+                "accepted_at": null
+            },
+            "spare_parts": {
+                "proposed": false,
+                "accepted_at": null,
+                "orders": []
+            }
+        }
+    ],
+    "ship_to": {
+        "id": "142eb45a-feb0-491c-a1e0-fd3500ee1de2",
+        "name": "3 Suisses",
+        "first_name": "Emmanuel",
+        "last_name": "KOWALSKI",
+        "locale": "",
+        "email": "testemail destination@shoprunback.com",
+        "phone": "0628465900",
+        "address": {
+            "line1": "2 allée des Charmes",
+            "line2": "",
+            "zipcode": "56000",
+            "country_code": "FR",
+            "city": "VANNES",
+            "state": null
+        }
+    },
+    "customer": {
+        "id": "4d707caf-e4e0-48b8-854b-33891db0870d",
+        "first_name": "Emmanuel",
+        "last_name": "KOWALSKI",
+        "email": "emmanuel@shoprunback.com",
+        "phone": "0628465900",
+        "locale": "fr",
+        "tag_list": [],
+        "address": {
+            "id": "7429d75f-a619-43a8-a7f0-d5f418a60558",
+            "line1": "2 allée des Charmes",
+            "line2": "2 allée des Charmes",
+            "zipcode": "56000",
+            "country_code": "FR",
+            "city": "VANNES",
+            "state": ""
+        }
+    },
+    "order": {
+        "id": "900ee438-c1f1-4d4e-8398-88f17dd7bc1f",
+        "ordered_at": "2022-09-30",
+        "order_number": "testemail",
+        "currency": "EUR",
+        "source_ref": null,
+        "customer": {
+            "id": "9d69d1d3-da95-41b7-991a-debcf4970504",
+            "first_name": "Emmanuel",
+            "last_name": "KOWALSKI",
+            "email": "emmanuel@shoprunback.com",
+            "phone": "0628465900",
+            "locale": "fr",
+            "tag_list": [],
+            "address": {
+                "id": "ce5dd41c-255a-4999-914d-f92bc06824d6",
+                "line1": "2 allée des Charmes",
+                "line2": "2 allée des Charmes",
+                "zipcode": "56000",
+                "country_code": "FR",
+                "city": "VANNES",
+                "state": ""
+            }
+        },
+        "metadata": {},
+        "created_at": "2022-09-30T09:02:47.265+02:00",
+        "updated_at": "2022-09-30T09:02:47.265+02:00",
+        "tag_list": [
+            "05"
+        ],
+        "items": [
+            {
+                "id": "5672e430-2a70-407c-8463-fe4180fe88a0",
+                "barcode": null,
+                "label": "Baskets souple en textile noir pour homme  (Umbro) Taille : 45",
+                "reference": null,
+                "price_cents": null,
+                "currency": "eur",
+                "tag_list": [],
+                "product": {
+                    "id": "ef1511e8-c9bd-406e-bf26-303bac73a484",
+                    "label": "Baskets souple en textile noir pour homme  (Umbro) Taille : 45",
+                    "reference": "UM3361456-4302492",
+                    "ean": "3616425042678",
+                    "weight_grams": 450,
+                    "width_mm": null,
+                    "length_mm": null,
+                    "height_mm": null,
+                    "metadata": null,
+                    "picture_url": "https://s3.amazonaws.com/srb-staging/products/ef1/511/e8-/pictures/medium.?1662361550",
+                    "tag_list": [],
+                    "brand": {
+                        "id": "b1055695-1bb9-4fad-815b-9abc8b457813",
+                        "name": "Umbro",
+                        "reference": "4291",
+                        "default": false
+                    },
+                    "spare_parts": []
+                }
+            }
+        ],
+        "shipback_id": "dbfe86a2-0ce8-4069-9fa9-0b5fb5647490"
+    },
+    "company": {
+        "id": "4ae6742e-76e0-434c-9ed9-1dcea0797e1a",
+        "name": "3 SUISSES",
+        "slug": "3-suisses",
+        "address1": "",
+        "address2": "",
+        "zipcode": "",
+        "state": null,
+        "country_code": "AD",
+        "contact_email": "",
+        "website_url": "https://www.3suisses.fr/",
+        "phone_number": "",
+        "logo_url": "https://s3.amazonaws.com/srb-staging/companies/4ae/674/2e-/logos/main.png?1652950000",
+        "locked": false,
+        "enabled": false,
+        "reasons": [
+            "damaged",
+            "description.color",
+            "description.wronginformations",
+            "doesnt_fit.color",
+            "doesnt_fit.quality",
+            "doesnt_fit.toobig",
+            "doesnt_fit.toosmall",
+            "incorrect.error",
+            "incorrect.quantity",
+            "reconsider.changemind",
+            "reconsider.findother"
+        ]
+    },
+    "quotes": [
+        {
+            "id": "1afc4fd6-7896-4500-918c-8ab0e3d4b580",
+            "external_id": "633694bda4ab5a001d8e7bb0",
+            "state": "computed",
+            "mode": "pickup",
+            "available": false,
+            "availability": "pending",
+            "price_cents": 1338,
+            "customer_price_cents": 1338,
+            "retailer_price_cents": 0,
+            "plan_level": "direct_relocation",
+            "label_url": null,
+            "generating_at": null,
+            "generated_at": null,
+            "tracking_number": null,
+            "options": null
+        },
+        {
+            "id": "ba66778d-822a-4468-be35-499246f213e5",
+            "external_id": "633694bfa4ab5a001d8e7bb4",
+            "state": "computed",
+            "mode": "dropoff",
+            "available": true,
+            "availability": "possible",
+            "price_cents": 500,
+            "customer_price_cents": 500,
+            "retailer_price_cents": 0,
+            "plan_level": "direct_relocation",
+            "label_url": "https://s3.eu-west-3.amazonaws.com/srb-labels/mondialrelay/1664521471.5309293.pdf",
+            "generating_at": "2022-09-30T09:04:27.122+02:00",
+            "generated_at": "2022-09-30T09:04:32.995+02:00",
+            "tracking_number": "14084045610101006882000026",
+            "options": null,
+            "dropoff_points": [
+                {
+                    "distance": "98",
+                    "name": "LA FOIR FOUILLE RUE BERTHELOT",
+                    "id": "015891",
+                    "longitude": "-02.7875416",
+                    "latitude": "47.6648685",
+                    "city": "VANNES",
+                    "line1": "19 RUE MARCELLIN BERTHELOT",
+                    "zipcode": "56000",
+                    "opening": [
+                        {
+                            "start_at": "00:01-23:59",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "00:01-23:59",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "00:01-23:59",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "00:01-23:59",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "00:01-23:59",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "00:01-23:59",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "00:01-23:59",
+                            "end_at": "00:00-00:00"
+                        }
+                    ]
+                },
+                {
+                    "distance": "99",
+                    "name": "TABA VAP",
+                    "id": "016646",
+                    "longitude": "-02.7633763",
+                    "latitude": "47.6588127",
+                    "city": "VANNES",
+                    "line1": "29 RUE HOCHE",
+                    "zipcode": "56000",
+                    "opening": [
+                        {
+                            "start_at": "07:30-19:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "07:30-19:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "07:30-19:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "07:30-19:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "07:30-19:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "07:30-19:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "07:30-19:00",
+                            "end_at": "00:00-00:00"
+                        }
+                    ]
+                },
+                {
+                    "distance": "99",
+                    "name": "DUKKANE",
+                    "id": "031434",
+                    "longitude": "-02.7587416",
+                    "latitude": "47.6744932",
+                    "city": "VANNES",
+                    "line1": "76 AVENUE DU 4 AO T 1944",
+                    "zipcode": "56000",
+                    "opening": [
+                        {
+                            "start_at": "00:00-00:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "00:00-00:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "00:00-00:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "00:00-00:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "00:00-00:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "00:00-00:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "00:00-00:00",
+                            "end_at": "00:00-00:00"
+                        }
+                    ]
+                },
+                {
+                    "distance": "99",
+                    "name": "CARLANCE 2 / POULFANC",
+                    "id": "081624",
+                    "longitude": "-02.7204293",
+                    "latitude": "47.6558537",
+                    "city": "VANNES",
+                    "line1": "11BIS RUE DU GENERAL BARON FABR",
+                    "zipcode": "56000",
+                    "opening": [
+                        {
+                            "start_at": "09:00-19:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "09:00-19:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "09:00-19:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "09:00-19:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "09:00-19:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "09:00-19:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "09:00-19:00",
+                            "end_at": "00:00-00:00"
+                        }
+                    ]
+                },
+                {
+                    "distance": "4812",
+                    "name": "CARREFOUR CONTACT",
+                    "id": "005432",
+                    "longitude": "-02.7345247",
+                    "latitude": "47.6189939",
+                    "city": "SENE",
+                    "line1": "7 AVENUE DE PENHOET",
+                    "zipcode": "56860",
+                    "opening": [
+                        {
+                            "start_at": "08:00-20:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "08:00-20:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "08:00-20:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "08:00-20:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "08:00-20:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "08:00-20:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "08:00-20:00",
+                            "end_at": "00:00-00:00"
+                        }
+                    ]
+                },
+                {
+                    "distance": "6251",
+                    "name": "LOCKER 24/7 INTERMARCHE PLOERE",
+                    "id": "071090",
+                    "longitude": "-02.8697818",
+                    "latitude": "47.6587754",
+                    "city": "PLOEREN",
+                    "line1": "1 AVENUE ERIC TABARLY",
+                    "zipcode": "56880",
+                    "opening": [
+                        {
+                            "start_at": "00:01-23:59",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "00:01-23:59",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "00:01-23:59",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "00:01-23:59",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "00:01-23:59",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "00:01-23:59",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "00:01-23:59",
+                            "end_at": "00:00-00:00"
+                        }
+                    ]
+                },
+                {
+                    "distance": "8996",
+                    "name": "LULLABY FLEURISTE",
+                    "id": "001728",
+                    "longitude": "-02.6294339",
+                    "latitude": "47.5778213",
+                    "city": "SURZUR",
+                    "line1": "PLACE DE L EGLISE",
+                    "zipcode": "56450",
+                    "opening": [
+                        {
+                            "start_at": "00:00-00:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "00:00-00:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "00:00-00:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "00:00-00:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "00:00-00:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "00:00-00:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "00:00-00:00",
+                            "end_at": "00:00-00:00"
+                        }
+                    ]
+                },
+                {
+                    "distance": "14905",
+                    "name": "LE SCORE",
+                    "id": "015417",
+                    "longitude": "-02.6803692",
+                    "latitude": "47.7435255",
+                    "city": "MONTERBLANC",
+                    "line1": "10 RUE DE LA FONTAINE SAINT-PIE",
+                    "zipcode": "56250",
+                    "opening": [
+                        {
+                            "start_at": "07:30-20:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "07:30-20:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "07:30-20:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "07:30-20:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "07:30-20:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "07:30-20:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "07:30-20:00",
+                            "end_at": "00:00-00:00"
+                        }
+                    ]
+                },
+                {
+                    "distance": "14906",
+                    "name": "VOTRE MARCHE",
+                    "id": "007425",
+                    "longitude": "-02.6502407",
+                    "latitude": "47.7035020",
+                    "city": "SAINT-NOLFF",
+                    "line1": "BOURG",
+                    "zipcode": "56250",
+                    "opening": [
+                        {
+                            "start_at": "08:30-13:00",
+                            "end_at": "15:00-18:30"
+                        },
+                        {
+                            "start_at": "08:30-13:00",
+                            "end_at": "15:00-18:30"
+                        },
+                        {
+                            "start_at": "08:30-13:00",
+                            "end_at": "15:00-18:30"
+                        },
+                        {
+                            "start_at": "08:30-13:00",
+                            "end_at": "15:00-18:30"
+                        },
+                        {
+                            "start_at": "08:30-13:00",
+                            "end_at": "15:00-18:30"
+                        },
+                        {
+                            "start_at": "08:30-13:00",
+                            "end_at": "15:00-18:30"
+                        },
+                        {
+                            "start_at": "08:30-13:00",
+                            "end_at": "15:00-18:30"
+                        }
+                    ]
+                },
+                {
+                    "distance": "14906",
+                    "name": "FROMAGES ET SAVEUR D ELVEN",
+                    "id": "016256",
+                    "longitude": "-02.5904221",
+                    "latitude": "47.7319335",
+                    "city": "ELVEN",
+                    "line1": "2 RUE NATIONALE",
+                    "zipcode": "56250",
+                    "opening": [
+                        {
+                            "start_at": "00:00-00:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "00:00-00:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "00:00-00:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "00:00-00:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "00:00-00:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "00:00-00:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "00:00-00:00",
+                            "end_at": "00:00-00:00"
+                        }
+                    ]
+                },
+                {
+                    "distance": "15401",
+                    "name": "CARREFOUR EXPRESS ST JACQUES",
+                    "id": "068466",
+                    "longitude": "-02.7971279",
+                    "latitude": "47.4893205",
+                    "city": "SARZEAU",
+                    "line1": "14 RUE CLOSCHEBEY",
+                    "zipcode": "56370",
+                    "opening": [
+                        {
+                            "start_at": "08:00-20:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "08:00-20:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "08:00-20:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "08:00-20:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "08:00-20:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "08:00-20:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "08:00-20:00",
+                            "end_at": "00:00-00:00"
+                        }
+                    ]
+                },
+                {
+                    "distance": "15401",
+                    "name": "CARREFOUR CONTACT",
+                    "id": "075263",
+                    "longitude": "-02.6459446",
+                    "latitude": "47.5260134",
+                    "city": "LE TOUR-DU-PARC",
+                    "line1": "RUE DE LA MAIRIE",
+                    "zipcode": "56370",
+                    "opening": [
+                        {
+                            "start_at": "08:00-18:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "08:00-18:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "08:00-18:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "08:00-18:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "08:00-18:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "08:00-18:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "08:00-18:00",
+                            "end_at": "00:00-00:00"
+                        }
+                    ]
+                },
+                {
+                    "distance": "16943",
+                    "name": "QUINCAILLERIE DU BELZIC",
+                    "id": "001096",
+                    "longitude": "-02.9849768",
+                    "latitude": "47.6662255",
+                    "city": "AURAY",
+                    "line1": "21 RUE DU BELZIC",
+                    "zipcode": "56400",
+                    "opening": [
+                        {
+                            "start_at": "00:00-00:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "00:00-00:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "00:00-00:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "00:00-00:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "00:00-00:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "00:00-00:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "00:00-00:00",
+                            "end_at": "00:00-00:00"
+                        }
+                    ]
+                },
+                {
+                    "distance": "16944",
+                    "name": "BOULANGERIE PLOUGOUMELEN",
+                    "id": "010032",
+                    "longitude": "-02.9179451",
+                    "latitude": "47.6521851",
+                    "city": "PLOUGOUMELEN",
+                    "line1": "1 RUE NOTRE DAME DE BEQUEREL",
+                    "zipcode": "56400",
+                    "opening": [
+                        {
+                            "start_at": "00:00-00:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "00:00-00:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "00:00-00:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "00:00-00:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "00:00-00:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "00:00-00:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "00:00-00:00",
+                            "end_at": "00:00-00:00"
+                        }
+                    ]
+                },
+                {
+                    "distance": "16944",
+                    "name": "ANAMOR TATTOO",
+                    "id": "015588",
+                    "longitude": "-02.9820186",
+                    "latitude": "47.6666199",
+                    "city": "AURAY",
+                    "line1": "6 AVENUE WILSON",
+                    "zipcode": "56400",
+                    "opening": [
+                        {
+                            "start_at": "10:30-12:30",
+                            "end_at": "13:30-18:30"
+                        },
+                        {
+                            "start_at": "10:30-12:30",
+                            "end_at": "13:30-18:30"
+                        },
+                        {
+                            "start_at": "10:30-12:30",
+                            "end_at": "13:30-18:30"
+                        },
+                        {
+                            "start_at": "10:30-12:30",
+                            "end_at": "13:30-18:30"
+                        },
+                        {
+                            "start_at": "10:30-12:30",
+                            "end_at": "13:30-18:30"
+                        },
+                        {
+                            "start_at": "10:30-12:30",
+                            "end_at": "13:30-18:30"
+                        },
+                        {
+                            "start_at": "10:30-12:30",
+                            "end_at": "13:30-18:30"
+                        }
+                    ]
+                },
+                {
+                    "distance": "16944",
+                    "name": "LA FOIR FOUILLE 56400 AURAY .",
+                    "id": "015894",
+                    "longitude": "-03.0044227",
+                    "latitude": "47.6628321",
+                    "city": "AURAY",
+                    "line1": "8 RUE YVES DE KERGUELEN",
+                    "zipcode": "56400",
+                    "opening": [
+                        {
+                            "start_at": "00:01-23:59",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "00:01-23:59",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "00:01-23:59",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "00:01-23:59",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "00:01-23:59",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "00:01-23:59",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "00:01-23:59",
+                            "end_at": "00:00-00:00"
+                        }
+                    ]
+                },
+                {
+                    "distance": "16944",
+                    "name": "CHEZ FRANCKY",
+                    "id": "095669",
+                    "longitude": "-02.9973019",
+                    "latitude": "47.6703502",
+                    "city": "AURAY",
+                    "line1": "30 RUE DU COLONEL ANDRE FAURE",
+                    "zipcode": "56400",
+                    "opening": [
+                        {
+                            "start_at": "16:30-21:30",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "16:30-21:30",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "16:30-21:30",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "16:30-21:30",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "16:30-21:30",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "16:30-21:30",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "16:30-21:30",
+                            "end_at": "00:00-00:00"
+                        }
+                    ]
+                },
+                {
+                    "distance": "18119",
+                    "name": "MALY S FLEURS",
+                    "id": "041001",
+                    "longitude": "-02.9975067",
+                    "latitude": "47.6138037",
+                    "city": "CRAC H",
+                    "line1": "15 RUE D ABOVILLE",
+                    "zipcode": "56950",
+                    "opening": [
+                        {
+                            "start_at": "00:00-00:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "00:00-00:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "00:00-00:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "00:00-00:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "00:00-00:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "00:00-00:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "00:00-00:00",
+                            "end_at": "00:00-00:00"
+                        }
+                    ]
+                },
+                {
+                    "distance": "20005",
+                    "name": "ADHOC AUTOS",
+                    "id": "014489",
+                    "longitude": "-02.7273747",
+                    "latitude": "47.8517129",
+                    "city": "SAINT-JEAN-BREVELAY",
+                    "line1": "ZONE INDUSTRIELLE LAY",
+                    "zipcode": "56660",
+                    "opening": [
+                        {
+                            "start_at": "08:00-12:00",
+                            "end_at": "13:45-19:00"
+                        },
+                        {
+                            "start_at": "08:00-12:00",
+                            "end_at": "13:45-19:00"
+                        },
+                        {
+                            "start_at": "08:00-12:00",
+                            "end_at": "13:45-19:00"
+                        },
+                        {
+                            "start_at": "08:00-12:00",
+                            "end_at": "13:45-19:00"
+                        },
+                        {
+                            "start_at": "08:00-12:00",
+                            "end_at": "13:45-19:00"
+                        },
+                        {
+                            "start_at": "08:00-12:00",
+                            "end_at": "13:45-19:00"
+                        },
+                        {
+                            "start_at": "08:00-12:00",
+                            "end_at": "13:45-19:00"
+                        }
+                    ]
+                },
+                {
+                    "distance": "21536",
+                    "name": "LE MELEC PRESSE",
+                    "id": "092641",
+                    "longitude": "-02.6401959",
+                    "latitude": "47.8381038",
+                    "city": "PLUMELEC",
+                    "line1": "11 PLACE DE L EGLISE",
+                    "zipcode": "56420",
+                    "opening": [
+                        {
+                            "start_at": "00:00-00:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "00:00-00:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "00:00-00:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "00:00-00:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "00:00-00:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "00:00-00:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "00:00-00:00",
+                            "end_at": "00:00-00:00"
+                        }
+                    ]
+                },
+                {
+                    "distance": "22849",
+                    "name": "CIDRE DE KERNIEL",
+                    "id": "062190",
+                    "longitude": "-02.9988709",
+                    "latitude": "47.8586960",
+                    "city": "CAMORS",
+                    "line1": "14 KERNIEL",
+                    "zipcode": "56330",
+                    "opening": [
+                        {
+                            "start_at": "09:30-18:30",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "09:30-18:30",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "09:30-18:30",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "09:30-18:30",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "09:30-18:30",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "09:30-18:30",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "09:30-18:30",
+                            "end_at": "00:00-00:00"
+                        }
+                    ]
+                },
+                {
+                    "distance": "23077",
+                    "name": "EGLANTINE",
+                    "id": "003828",
+                    "longitude": "-02.4571948",
+                    "latitude": "47.6615700",
+                    "city": "QUESTEMBERT",
+                    "line1": "19 PLACE DU MARCHIX",
+                    "zipcode": "56230",
+                    "opening": [
+                        {
+                            "start_at": "00:00-00:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "00:00-00:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "00:00-00:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "00:00-00:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "00:00-00:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "00:00-00:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "00:00-00:00",
+                            "end_at": "00:00-00:00"
+                        }
+                    ]
+                },
+                {
+                    "distance": "23995",
+                    "name": "PENSEE SANTE",
+                    "id": "098634",
+                    "longitude": "-02.5095493",
+                    "latitude": "47.5614100",
+                    "city": "MUZILLAC",
+                    "line1": "RUE DES SALICORNES",
+                    "zipcode": "56190",
+                    "opening": [
+                        {
+                            "start_at": "00:00-00:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "00:00-00:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "00:00-00:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "00:00-00:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "00:00-00:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "00:00-00:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "00:00-00:00",
+                            "end_at": "00:00-00:00"
+                        }
+                    ]
+                },
+                {
+                    "distance": "23999",
+                    "name": "LOCKER 24/7 CARREFOUR MARKET A",
+                    "id": "015793",
+                    "longitude": "-02.5057749",
+                    "latitude": "47.5599831",
+                    "city": "AMBON",
+                    "line1": "TOULAN",
+                    "zipcode": "56190",
+                    "opening": [
+                        {
+                            "start_at": "00:01-23:59",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "00:01-23:59",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "00:01-23:59",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "00:01-23:59",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "00:01-23:59",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "00:01-23:59",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "00:01-23:59",
+                            "end_at": "00:00-00:00"
+                        }
+                    ]
+                },
+                {
+                    "distance": "23999",
+                    "name": "CARREFOUR CITY",
+                    "id": "045973",
+                    "longitude": "-02.4828237",
+                    "latitude": "47.5525944",
+                    "city": "MUZILLAC",
+                    "line1": "6 RUE D ARMORIQUE",
+                    "zipcode": "56190",
+                    "opening": [
+                        {
+                            "start_at": "07:00-21:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "07:00-21:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "07:00-21:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "07:00-21:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "07:00-21:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "07:00-21:00",
+                            "end_at": "00:00-00:00"
+                        },
+                        {
+                            "start_at": "07:00-21:00",
+                            "end_at": "00:00-00:00"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7ae337dd-f64b-4067-a459-29f5857ddc2e",
+            "external_id": "633694c4a4ab5a001d8e7bba",
+            "state": "computed",
+            "mode": "postal",
+            "available": false,
+            "availability": "impossible",
+            "price_cents": 844,
+            "customer_price_cents": 844,
+            "retailer_price_cents": 0,
+            "plan_level": "direct_relocation",
+            "label_url": null,
+            "generating_at": null,
+            "generated_at": null,
+            "tracking_number": null,
+            "options": null
+        }
+    ]
+}

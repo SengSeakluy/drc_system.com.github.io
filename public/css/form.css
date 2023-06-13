@@ -1,0 +1,353 @@
+:root {
+  --primary-color: #013289;
+  --primary500-color: #3d5886;
+  --negative-color: #af0101;
+  --negative500-color: #ce1c1c;
+  --negative200-color: #f35757;
+  --positive-color: #00a336;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+.hero {
+  min-height: 100vh;
+  text-align: start !important;
+}
+
+/* Global Stylings */
+label {
+  margin: 0.3rem;
+  font-weight: 600;
+}
+
+a {
+  font-weight: 400;
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+}
+
+select {
+  width: auto;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+}
+
+.width-50 {
+  width: 50%;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Progressbar */
+.progressbar {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  counter-reset: step;
+  margin: 2rem 0 4rem;
+}
+
+.progressbar::before,
+.progress {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 10px;
+  width: 100%;
+  background-color: #dcdcdc;
+  z-index: -1;
+}
+
+.progress {
+  background-color: #024ccf !important;
+  width: 0%;
+  transition: 0.3s;
+  border-radius: 1rem !important;
+}
+
+.progress-step {
+  width: 2.1875rem;
+  height: 2.1875rem;
+  background-color: #dcdcdc;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.progress-step::before {
+  counter-increment: step;
+  content: counter(step);
+}
+
+.progress-step::after {
+  content: attr(data-title);
+  position: absolute;
+  top: calc(100% + 0.5rem);
+  font-size: 0.85rem;
+  color: #666;
+  width: max-content;
+}
+
+.progress-step-active {
+  background-color: var(--primary-color);
+  color: #f3f3f3;
+}
+
+/* Form */
+.form {
+  width: clamp(85%, 30%, 430px);
+  margin: 0 auto;
+  padding: 0.5rem;
+}
+
+.form-step {
+  display: none;
+  transform-origin: top;
+  animation: animate 0.5s;
+}
+
+.form-step-active {
+  display: block;
+}
+
+.input {
+  margin: 1rem 0;
+}
+
+@keyframes animate {
+  from {
+    transform: scale(1, 0);
+    opacity: 0;
+  }
+
+  to {
+    transform: scale(1, 1);
+    opacity: 1;
+  }
+}
+
+/* Button */
+.btns-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-next {
+  padding: 0.75rem;
+  display: block;
+  background-color: var(--primary-color);
+  color: white !important;
+  text-align: center;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-prev {
+  padding: 0.75rem;
+  display: block;
+  background-color: var(--negative-color) !important;
+  color: white !important;
+  text-align: center;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-add {
+  width: 7rem;
+  margin: 1rem;
+  padding: 0.55rem;
+  display: block;
+  background-color: var(--positive-color) !important;
+  color: white !important;
+  text-align: center;
+  border-radius: 0.25rem !important;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-remove {
+  width: 7rem;
+  margin: 1rem;
+  padding: 0.55rem;
+  display: block;
+  background-color: var(--negative500-color) !important;
+  color: white !important;
+  text-align: center;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: 0.3s;
+  border: 0;
+  font-size: small;
+}
+
+.btn-next:hover {
+  box-shadow: 0 0 0 2px #fff, 0 0 0 3px var(--primary-color);
+}
+
+.btn-prev:hover {
+  box-shadow: 0 0 0 2px #fff, 0 0 0 3px var(--negative-color);
+}
+
+.btn-add:hover {
+  box-shadow: 0 0 0 2px #fff, 0 0 0 3px var(--positive-color);
+}
+
+.btn-remove:hover {
+  box-shadow: 0 0 0 2px #fff, 0 0 0 3px var(--negative500-color);
+}
+
+.box_error {
+  border: 3px solid var(--negative500-color);
+  /* background-color: var(--negative200-color); */
+}
+
+.error {
+  color: var(--negative-color);
+}
+
+.radio {
+  display: block;
+  width: auto;
+  margin: 5px;
+}
+
+.info {
+  margin: 0.3rem 0 0.3rem 0;
+}
+
+
+@media only screen and (min-width: 800px) {
+  .progressbar {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    counter-reset: step;
+    margin: 2rem 12rem 4rem;
+  }
+  .step-2 {
+    margin-left: 10px;
+  }
+  .form-1 {
+    margin-left: 3rem;
+  }
+  .form-2 {
+    margin-left: 3rem;
+  }
+  .card {
+    padding: 1rem;
+  }
+}
+
+@media only screen and (max-width: 799px) {
+  .progressbar {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    counter-reset: step;
+    margin: 2rem 3rem 4rem;
+  }
+  .step-2 {
+    margin-left: 10px;
+    margin-bottom: 20px;
+  }
+  .form-1 {
+    margin-left: 3rem;
+  }
+  .form-2 {
+    margin-left: 3rem;
+  }
+  .card {
+    padding: 1rem;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .progressbar {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    counter-reset: step;
+    margin: 2rem -0.5rem 4rem;
+  }
+  .step-2 {
+    margin-left: 0px;
+    margin-bottom: 20px;
+  }
+  .form-1 {
+    margin-left: 1rem;
+  }
+  .form-2 {
+    margin-left: 1rem;
+  }
+  .card {
+    padding: 1rem;
+  }
+  .info {
+    margin: 0.3rem 0.3rem 0.3rem 1.3rem;
+  }
+  .time {
+    padding: 0.25px;
+  }
+  .postoffice {
+    width: 145px !important;
+  }
+}
+
+[type="date"] {
+  background: #fff
+    url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png)
+    97% 50% no-repeat;
+}
+
+[type="date"]::-webkit-inner-spin-button {
+  display: none;
+}
+
+[type="date"]::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}
+
+/* Style the date input */
+input[type="date"] {
+  font-size: 1.2em;
+  padding: 0.5em;
+  border-radius: 0.25em;
+  border: 1px solid #ccc;
+  width: auto;
+}
+
+.radio-container {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 20px;
+  /* Optional spacing between the elements */
+}
+
+.disabled {
+  pointer-events: none;
+  opacity: 0.4;
+}
+
+.card {
+  background-color: #f2f2f2;
+}
